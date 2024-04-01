@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Echo App</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <!-- New strings for this program -->
+    <string name="box_hint">Please type text here</string>
+    <string name="text_instructions">Please enter the text in the box below that you would like to be echoed</string>
+    <string name="initial_text">Echo App by Aliza Weizberg</string>
+    <string name="button">Echo</string>
+    <!--    implementation("com.android.support:design:25.3.1")
+    -->
+</resources>

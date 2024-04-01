@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+
+    <!--
+        <TextView
+            android:id="@+id/instructions"
+            android:padding="@dimen/fab_margin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/text_instructions"
+            android:textAppearance="@style/TextAppearance.Material3.ActionBar.Title" />
+
+-->
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/box_hint">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:id="@+id/text_to_copy"
+            android:layout_height="wrap_content" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+    />
+
+    <!-- <TextView
+       android:id="@+id/instructions"
+        android:text="@string/text_instructions"
+        style="@style/textApperance" />
+        -->
+
+    <!-- Edit text box -->
+    <!--<EditText
+        android:id="@+id/text_to_copy"
+        style="@style/textApperance"
+        android:hint="@string/box_hint"/>
+        -->
+
+    <com.google.android.material.card.MaterialCardView
+        style="@style/Widget.Material3.CardView.Outlined"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/fab_margin">
+
+        <TextView
+            android:id="@+id/tv_output"
+            android:padding="@dimen/fab_margin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/initial_text"
+            android:textAppearance="@style/TextAppearance.Material3.ActionBar.Title" />
+    </com.google.android.material.card.MaterialCardView>
+
+
+</LinearLayout>
